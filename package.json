@@ -1,0 +1,18 @@
+{
+  "name": "bunitel-hello-world",
+  "module": "index.ts",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "dev": "bun run --hot index.ts --live-reload",
+    "prod": "bun run index.ts"
+  },
+  "type": "module",
+  "dependencies": {
+    "bunitel": "^1.0.2"
+  }
+}
