@@ -13,6 +13,6 @@
   },
   "type": "module",
   "dependencies": {
-    "bunitel": "^1.0.2"
+    "bunitel": "^1.0.3"
   }
 }
